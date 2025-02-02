@@ -1,214 +1,71 @@
-Contribution: 2021-10-06 00:00
 
-Contribution: 2021-10-06 00:01
+# AWS Dev Env With Terraform
 
-Contribution: 2021-10-06 00:02
+This project is a hands-on guide to building a development environment on **Amazon Web Services (AWS)** using **Terraform**. It’s designed to help you learn the basics of Terraform while creating a functional and fun setup.
 
-Contribution: 2021-10-09 00:00
+---
 
-Contribution: 2021-10-09 00:01
+## About the Project
 
-Contribution: 2021-10-11 00:00
+This project is part of a learning journey inspired by **Derek Morgan**'s course on Terraform and AWS. You can find the course here:  
+👉 [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/bade-terraform-aws)
 
-Contribution: 2021-10-11 00:01
+---
 
-Contribution: 2021-10-13 00:00
+## Features
 
-Contribution: 2021-10-13 00:01
+- **Infrastructure as Code (IaC)**: Use Terraform to define and provision AWS resources.
+- **Dev Environment Setup**: Quickly spin up a development environment on AWS.
+- **Learning-Focused**: Perfect for beginners looking to get hands-on with Terraform and AWS.
 
-Contribution: 2021-10-13 00:02
+---
 
-Contribution: 2021-10-13 00:03
+## Prerequisites
 
-Contribution: 2021-10-13 00:04
+Before you begin, ensure you have the following:
 
-Contribution: 2021-10-13 00:05
+1. **AWS Account**: Sign up for a free account at [AWS Management Console](https://aws.amazon.com/).
+2. **Terraform Installed**: Download and install Terraform from [terraform.io](https://www.terraform.io/).
+3. **AWS CLI**: Install the AWS CLI from [AWS CLI Documentation](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
+4. **Git**: Install Git from [git-scm.com](https://git-scm.com/).
 
-Contribution: 2021-10-13 00:06
+---
 
-Contribution: 2021-10-16 00:00
+## Getting Started
 
-Contribution: 2021-10-16 00:01
+### Step 1: Clone the Repository
 
-Contribution: 2021-10-16 00:02
+```bash
+git clone https://github.com/your-username/AWS_DevEnv_With_Terraform.git
+cd AWS_DevEnv_With_Terraform
+```
 
-Contribution: 2021-10-16 00:03
+### Step 2: Authenticate with AWS
 
-Contribution: 2021-10-16 00:04
+Configure your AWS credentials using the AWS CLI:
 
-Contribution: 2021-10-16 00:05
+```bash
+aws configure
+```
 
-Contribution: 2021-10-16 00:06
+### Step 3: Initialize Terraform
 
-Contribution: 2021-10-16 00:07
+Initialize Terraform to download the necessary providers:
 
-Contribution: 2021-10-17 00:00
+```bash
+terraform init
+```
 
-Contribution: 2021-10-21 00:00
+### Step 4: Apply the Configuration
 
-Contribution: 2021-10-29 00:00
+Review the Terraform plan and apply the configuration to create the AWS resources:
 
-Contribution: 2021-10-31 00:00
+```bash
+terraform plan
+terraform apply
+```
+---
 
-Contribution: 2021-11-06 00:00
+## Acknowledgments
 
-Contribution: 2021-11-06 00:01
-
-Contribution: 2021-11-06 00:02
-
-Contribution: 2021-11-06 00:03
-
-Contribution: 2021-11-06 00:04
-
-Contribution: 2021-11-07 00:00
-
-Contribution: 2021-11-07 00:01
-
-Contribution: 2021-11-07 00:02
-
-Contribution: 2021-11-07 00:03
-
-Contribution: 2021-11-07 00:04
-
-Contribution: 2021-11-07 00:05
-
-Contribution: 2021-11-07 00:06
-
-Contribution: 2021-11-07 00:07
-
-Contribution: 2021-11-10 00:00
-
-Contribution: 2021-11-16 00:00
-
-Contribution: 2021-11-16 00:01
-
-Contribution: 2021-11-16 00:02
-
-Contribution: 2021-11-16 00:03
-
-Contribution: 2021-11-16 00:04
-
-Contribution: 2021-11-16 00:05
-
-Contribution: 2021-11-16 00:06
-
-Contribution: 2021-11-16 00:07
-
-Contribution: 2021-11-16 00:08
-
-Contribution: 2021-11-23 00:00
-
-Contribution: 2021-11-23 00:01
-
-Contribution: 2021-11-23 00:02
-
-Contribution: 2021-11-23 00:03
-
-Contribution: 2021-11-24 00:00
-
-Contribution: 2021-11-26 00:00
-
-Contribution: 2021-11-26 00:01
-
-Contribution: 2021-11-26 00:02
-
-Contribution: 2021-11-26 00:03
-
-Contribution: 2021-11-26 00:04
-
-Contribution: 2021-11-26 00:05
-
-Contribution: 2021-11-26 00:06
-
-Contribution: 2021-11-26 00:07
-
-Contribution: 2021-11-26 00:08
-
-Contribution: 2021-11-29 00:00
-
-Contribution: 2021-11-29 00:01
-
-Contribution: 2021-11-29 00:02
-
-Contribution: 2021-11-29 00:03
-
-Contribution: 2021-11-29 00:04
-
-Contribution: 2021-11-29 00:05
-
-Contribution: 2021-11-29 00:06
-
-Contribution: 2021-11-29 00:07
-
-Contribution: 2021-11-29 00:08
-
-Contribution: 2021-11-29 00:09
-
-Contribution: 2021-12-03 00:00
-
-Contribution: 2021-12-03 00:01
-
-Contribution: 2021-12-03 00:02
-
-Contribution: 2021-12-03 00:03
-
-Contribution: 2021-12-03 00:04
-
-Contribution: 2021-12-03 00:05
-
-Contribution: 2021-12-03 00:06
-
-Contribution: 2021-12-03 00:07
-
-Contribution: 2021-12-03 00:08
-
-Contribution: 2021-12-10 00:00
-
-Contribution: 2021-12-10 00:01
-
-Contribution: 2021-12-10 00:02
-
-Contribution: 2021-12-10 00:03
-
-Contribution: 2021-12-10 00:04
-
-Contribution: 2021-12-10 00:05
-
-Contribution: 2021-12-10 00:06
-
-Contribution: 2021-12-10 00:07
-
-Contribution: 2021-12-10 00:08
-
-Contribution: 2021-12-14 00:00
-
-Contribution: 2021-12-14 00:01
-
-Contribution: 2021-12-14 00:02
-
-Contribution: 2021-12-14 00:03
-
-Contribution: 2021-12-15 00:00
-
-Contribution: 2021-12-15 00:01
-
-Contribution: 2021-12-15 00:02
-
-Contribution: 2021-12-15 00:03
-
-Contribution: 2021-12-15 00:04
-
-Contribution: 2021-12-15 00:05
-
-Contribution: 2021-12-15 00:06
-
-Contribution: 2021-12-15 00:07
-
-Contribution: 2021-12-15 00:08
-
-Contribution: 2021-12-30 00:00
-
-Contribution: 2021-12-30 00:01
-
-Contribution: 2021-12-30 00:02
-
+- **Derek Morgan** for the inspiration and guidance through his course: [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/bade-terraform-aws).
