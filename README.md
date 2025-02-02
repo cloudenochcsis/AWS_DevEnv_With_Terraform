@@ -8,7 +8,7 @@ This project is a hands-on guide to building a development environment on **Amaz
 ## About the Project
 
 This project is part of a learning journey inspired by **Derek Morgan**'s course on Terraform and AWS. You can find the course here:  
-👉 [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/bade-terraform-aws)
+👉 [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/rfp-terraform)
 
 ---
 
@@ -68,4 +68,4 @@ terraform apply
 
 ## Acknowledgments
 
-- **Derek Morgan** for the inspiration and guidance through his course: [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/bade-terraform-aws).
+- **Derek Morgan** for the inspiration and guidance through his course: [Build a Dev Environment with Terraform and AWS](https://morethancertified.com/course/rfp-terraform).
