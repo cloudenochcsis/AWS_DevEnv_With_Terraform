@@ -1,0 +1,9 @@
+region             = "us-west-2"
+vpc_cidr           = "10.0.0.0/16"
+subnet_cidr        = "10.0.1.0/24"
+instance_type      = "t2.micro"
+enable_public_ip   = true
+environment        = "dev"
+ssh_key_name       = "dev-key"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+allowed_ip         = "0.0.0.0/0" # For production, restrict to your IP
